@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheRaccoonGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2av-TL-i73">
+                                <rect key="frame" x="79" y="59" width="242" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="poW-mM-vfs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="76"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMy-kc-bVg">
+                                <rect key="frame" x="81" y="158" width="242" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="uvX-Su-w95"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highscore : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSd-9P-nIj">
+                                <rect key="frame" x="79" y="666" width="242" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="fK6-aq-qal">
+                                <rect key="frame" x="4" y="198" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="Akf-xs-78d"/>
+                                    <constraint firstAttribute="width" constant="123" id="WgP-wy-bLv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="fW7-Kx-6sv">
+                                <rect key="frame" x="131" y="198" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="iFd-rV-iKy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-iG-7We">
+                                <rect key="frame" x="262" y="198" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="sUW-GL-N5E">
+                                <rect key="frame" x="4" y="353" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="Pzm-bv-XOI">
+                                <rect key="frame" x="135" y="353" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="Qeo-D6-rf4">
+                                <rect key="frame" x="266" y="353" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="ZqR-0d-eio">
+                                <rect key="frame" x="4" y="508" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="oIz-gq-gjr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="vHP-cN-zgv">
+                                <rect key="frame" x="135" y="508" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RaccooNN" translatesAutoresizingMaskIntoConstraints="NO" id="kSJ-hO-Nhg">
+                                <rect key="frame" x="266" y="508" width="123" height="147"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vHP-cN-zgv" firstAttribute="bottom" secondItem="kSJ-hO-Nhg" secondAttribute="bottom" id="0dR-3T-5uC"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="4" id="1Eq-we-oIp"/>
+                            <constraint firstItem="2av-TL-i73" firstAttribute="trailing" secondItem="vSd-9P-nIj" secondAttribute="trailing" id="5bn-bN-qyB"/>
+                            <constraint firstItem="Qeo-D6-rf4" firstAttribute="trailing" secondItem="kSJ-hO-Nhg" secondAttribute="trailing" id="7aN-Vs-jTf"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="top" secondItem="Pzm-bv-XOI" secondAttribute="top" id="7li-Jj-2OC"/>
+                            <constraint firstItem="Asm-iG-7We" firstAttribute="leading" secondItem="fW7-Kx-6sv" secondAttribute="trailing" constant="8" id="AbX-QB-dos"/>
+                            <constraint firstItem="vHP-cN-zgv" firstAttribute="top" secondItem="kSJ-hO-Nhg" secondAttribute="top" id="HI6-lC-ZAX"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HJ0-af-v4b"/>
+                            <constraint firstItem="ZqR-0d-eio" firstAttribute="top" secondItem="vHP-cN-zgv" secondAttribute="top" id="Ikp-aM-MKD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vSd-9P-nIj" secondAttribute="bottom" constant="117" id="JGd-k0-Dk3"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="leading" secondItem="ZqR-0d-eio" secondAttribute="leading" id="Kr5-zx-aRy"/>
+                            <constraint firstItem="fW7-Kx-6sv" firstAttribute="top" secondItem="Asm-iG-7We" secondAttribute="top" id="LbK-C8-psh"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="bottom" secondItem="Qeo-D6-rf4" secondAttribute="bottom" id="QC8-PY-ESF"/>
+                            <constraint firstItem="ZqR-0d-eio" firstAttribute="top" secondItem="sUW-GL-N5E" secondAttribute="bottom" constant="8" id="RRj-kK-gfs"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="leading" secondItem="sUW-GL-N5E" secondAttribute="leading" id="SeU-1D-1yl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nMy-kc-bVg" secondAttribute="trailing" constant="70" id="SnK-lf-GZb"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="top" secondItem="fW7-Kx-6sv" secondAttribute="top" id="THQ-MF-3Nq"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="top" secondItem="nMy-kc-bVg" secondAttribute="bottom" constant="5" id="TJI-eO-2f5"/>
+                            <constraint firstItem="2av-TL-i73" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XIe-Ap-5Cq"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="top" secondItem="Qeo-D6-rf4" secondAttribute="top" id="XJv-sV-ksk"/>
+                            <constraint firstItem="fW7-Kx-6sv" firstAttribute="bottom" secondItem="Asm-iG-7We" secondAttribute="bottom" id="Y1g-T0-d6k"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Y3J-1t-56g"/>
+                            <constraint firstItem="ZqR-0d-eio" firstAttribute="bottom" secondItem="vHP-cN-zgv" secondAttribute="bottom" id="YMR-k1-xjq"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="bottom" secondItem="fW7-Kx-6sv" secondAttribute="bottom" id="ZE0-ur-Vyq"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="bottom" secondItem="Pzm-bv-XOI" secondAttribute="bottom" id="aCx-eU-ll6"/>
+                            <constraint firstItem="nMy-kc-bVg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="acq-9W-3Xl"/>
+                            <constraint firstItem="fW7-Kx-6sv" firstAttribute="leading" secondItem="fK6-aq-qal" secondAttribute="trailing" constant="4" id="cvm-By-OxK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qeo-D6-rf4" secondAttribute="trailing" constant="4" id="d3x-MX-4Wc"/>
+                            <constraint firstItem="fK6-aq-qal" firstAttribute="trailing" secondItem="sUW-GL-N5E" secondAttribute="trailing" id="gmq-do-tpG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Asm-iG-7We" secondAttribute="trailing" constant="8" id="i00-oi-18h"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="top" secondItem="fK6-aq-qal" secondAttribute="bottom" constant="8" id="k1q-M8-aVk"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="trailing" secondItem="vHP-cN-zgv" secondAttribute="trailing" id="mlU-hV-gjt"/>
+                            <constraint firstItem="sUW-GL-N5E" firstAttribute="trailing" secondItem="ZqR-0d-eio" secondAttribute="trailing" id="na2-tV-XfA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2av-TL-i73" secondAttribute="trailing" constant="72" id="ryR-Vu-dsy"/>
+                            <constraint firstItem="2av-TL-i73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="sHn-zc-Mb5"/>
+                            <constraint firstItem="Qeo-D6-rf4" firstAttribute="leading" secondItem="kSJ-hO-Nhg" secondAttribute="leading" id="sub-Ri-1rg"/>
+                            <constraint firstItem="vSd-9P-nIj" firstAttribute="top" secondItem="ZqR-0d-eio" secondAttribute="bottom" constant="11" id="utb-FP-mQ5"/>
+                            <constraint firstItem="2av-TL-i73" firstAttribute="leading" secondItem="vSd-9P-nIj" secondAttribute="leading" id="uvG-Bl-yrO"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="leading" secondItem="vHP-cN-zgv" secondAttribute="leading" id="w3Q-1Y-GGw"/>
+                            <constraint firstItem="nMy-kc-bVg" firstAttribute="top" secondItem="2av-TL-i73" secondAttribute="bottom" constant="8" id="wsx-0O-Kok"/>
+                            <constraint firstItem="Qeo-D6-rf4" firstAttribute="leading" secondItem="Pzm-bv-XOI" secondAttribute="trailing" constant="8" id="yS1-Qk-TAu"/>
+                            <constraint firstItem="Pzm-bv-XOI" firstAttribute="leading" secondItem="sUW-GL-N5E" secondAttribute="trailing" constant="8" id="zf1-9z-dQz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="vSd-9P-nIj" id="Gcz-Yd-kh5"/>
+                        <outlet property="raccoon1" destination="fK6-aq-qal" id="jRM-hD-Ws6"/>
+                        <outlet property="raccoon2" destination="fW7-Kx-6sv" id="xGB-oq-aQi"/>
+                        <outlet property="raccoon3" destination="Asm-iG-7We" id="3vN-Uv-kK9"/>
+                        <outlet property="raccoon4" destination="sUW-GL-N5E" id="Wtw-jw-YDA"/>
+                        <outlet property="raccoon5" destination="Pzm-bv-XOI" id="Sgz-DO-GpQ"/>
+                        <outlet property="raccoon6" destination="Qeo-D6-rf4" id="GIC-77-sdF"/>
+                        <outlet property="raccoon7" destination="ZqR-0d-eio" id="9U0-vo-wnL"/>
+                        <outlet property="raccoon8" destination="vHP-cN-zgv" id="8lr-ba-lbh"/>
+                        <outlet property="raccoon9" destination="kSJ-hO-Nhg" id="j4a-W8-TWb"/>
+                        <outlet property="scoreLabel" destination="nMy-kc-bVg" id="t5Z-Kb-qcI"/>
+                        <outlet property="timeLabel" destination="2av-TL-i73" id="9nU-QY-2mM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RaccooNN" width="500" height="499"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
